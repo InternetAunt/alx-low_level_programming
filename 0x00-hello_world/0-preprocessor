@@ -1,0 +1,3 @@
+#
+igcc -E $CFILE -0 c
+
