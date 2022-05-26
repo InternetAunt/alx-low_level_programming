@@ -30,11 +30,11 @@ list_t *add_node(list_t **head, const char *str)
  * Return: length of string
  */
 
-int _strlen(const char *c)
+int _strlen(const char *s)
 {
 	int i;
 
-	while (c[i] != 0)
+	while (s[i] != 0)
 		i++;
 	return (i);
 }
